@@ -12,6 +12,7 @@ function updateCount() {
         display.style.color="black"
     }
 }
+
 document.getElementById("increment").addEventListener("click", increment);
 function increment(){
     count++;
